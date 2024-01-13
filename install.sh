@@ -1,4 +1,5 @@
 #!/bin/sh
+./fishconf.sh
 tar xzf hyprconfs.tar.gz
                             #cannot figure out how to supply multiple folders, it just says too many arguments, fuck
                             # so i needed to come up with a better idea
@@ -9,7 +10,8 @@ tar xzf hyprconfs.tar.gz
                             #mkdir dunst/ fish/ hypr/ kitty/ rofi/ waybar/
                             #fi
                             # -------------------------------------------------------------
-yes | cp -r dunst/ fish/ hypr/ kitty/ rofi/ waybar/ ~/.config/
+yes | cp -r dunst/ fish/ hypr/ kitty/ rofi/ waybar/ ~/.config2/
+cp wall.png ~/
 # this removes the tar files that's just extracted, to save space.. heh..
-rm -rf dunst/ fish/ hypr/ kitty/ rofi/ waybar/
+rm -rf dunst/ fish/ hypr/ kitty/ rofi/ waybar/ wall.png
 echo "finished"
