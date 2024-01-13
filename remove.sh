@@ -5,7 +5,7 @@ cd ~/.config/
 rm -rf dunst/ fish/ hypr/ kitty/ rofi/ waybar/
 cd ~
 rm wall.png
-echo "finished removing: dunst, fish, hypr, kitty, rofi and waybar folders"
+echo "finished removing: the wallpaper, dunst, fish, hypr, kitty, rofi and waybar folders"
 echo "---installing packages---"
 if [ $(lsb_release -is)  == "Arch" ]
 then
