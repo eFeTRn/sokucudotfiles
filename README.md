@@ -1,4 +1,3 @@
-install:
 fish
 waybar
 dunst
