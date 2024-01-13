@@ -10,5 +10,6 @@ tar xzf hyprconfs.tar.gz
                             #fi
                             # -------------------------------------------------------------
 yes | cp -r dunst/ fish/ hypr/ kitty/ rofi/ waybar/ ~/.config/
+# this removes the tar files that's just extracted, to save space.. heh..
 rm -rf dunst/ fish/ hypr/ kitty/ rofi/ waybar/
 echo "finished"
