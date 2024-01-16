@@ -1,5 +1,7 @@
-dunst
-fish
-kitty
-rofi
-waybar
+ 	### sokucudotfiles
+
+dunst\
+fish\
+kitty\
+rofi\
+waybar\
