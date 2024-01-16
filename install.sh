@@ -1,4 +1,5 @@
 #!/bin/sh
+./p-ins.sh
 ./fishconf.sh
 tar xzf hyprconfs.tar.gz
                             #cannot figure out how to supply multiple folders, it just says too many arguments, fuck
