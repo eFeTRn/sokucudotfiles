@@ -3,8 +3,6 @@ echo "dunst, fish, hypr, kitty, rofi and waybar"
 read -rsp $'are you sure? this script will remove the folders thats stated above and reinstall them (reinstalling only works for arch)\n'
 cd ~/.config/
 rm -rf dunst/ fish/ hypr/ kitty/ rofi/ waybar/
-cd ~
-rm wall.png
 echo "finished removing: the wallpaper, dunst, fish, hypr, kitty, rofi and waybar folders"
 echo "---installing packages---"
 if [ $(lsb_release -is)  == "Arch" ]
