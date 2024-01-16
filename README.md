@@ -1,7 +1,6 @@
- 	### sokucudotfiles
-
+ 	#sokucudotfiles
 dunst\
 fish\
 kitty\
 rofi\
-waybar\
+waybar
