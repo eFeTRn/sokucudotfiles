@@ -1,4 +1,4 @@
- 	#sokucudotfiles
+# sokucudotfiles
 dunst\
 fish\
 kitty\
