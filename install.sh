@@ -1,4 +1,5 @@
 #!/bin/sh
+./f-shell.sh
 ./p-ins.sh
 ./fishconf.sh
 tar xzf hyprconfs.tar.gz
