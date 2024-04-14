@@ -2,6 +2,7 @@
 ./f-shell.sh
 ./p-ins.sh
 ./fishconf.sh
+./gamemode-gruop-add.sh
 tar xzf hyprconfs.tar.gz
                             #cannot figure out how to supply multiple folders, it just says too many arguments, fuck
                             # so i needed to come up with a better idea
