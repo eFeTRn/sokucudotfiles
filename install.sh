@@ -3,7 +3,7 @@
 ./p-ins.sh
 ./fishconf.sh
 ./gamemode-group-add.sh
-tar xzf hyprconfs.tar.gz
+7z x hyprconfs.7z
                             #cannot figure out how to supply multiple folders, it just says too many arguments, fuck
                             # so i needed to come up with a better idea
                             # but i'm still keeping this maybe someday i'll figure this out
